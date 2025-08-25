@@ -28,17 +28,17 @@ function Property() {
                 >
 
                     <Typography
-                        variant='h4'
-                        align='center'
+                        variant="h4"
+                        align="center"
+                        className="heading"
                         maxWidth="md"
                         sx={{
-                            backgroundColor: "#E2EDF3",
-                            margin: '0px 20px',
-                            color: '#002B3D',
-                            borderRadius: "30px",
-                            borderBottom: '10px solid #290000',
-                            padding: '6px 30px',
-                            width: "100%"
+                            margin: "0px auto 40px auto",
+                            background: "#4774AE",
+                            borderRadius: "26px",
+                            padding: "8px 60px",
+                            borderBottom: "20px solid #434460",
+                            color: "#E7ECEF",
                         }}
                     >
                         Houses
@@ -60,19 +60,19 @@ function Property() {
                     }}
                 >
                     <Typography
-                        variant='h4'
-                        align='center'
+                        variant="h4"
+                        align="center"
+                        className="heading"
                         maxWidth="md"
                         sx={{
-                            backgroundColor: "#E2EDF3",
-                            alignSelf: 'center',
-                            justifySelf: 'center',
-                            margin: '0px 20px 20px 20px',
-                            color: '#002B3D',
-                            borderRadius: "30px",
-                            borderBottom: '10px solid #290000',
-                            padding: '6px 30px'
-                        }}>
+                            margin: "0px auto 40px auto",
+                            background: "#4774AE",
+                            borderRadius: "26px",
+                            padding: "8px 60px",
+                            borderBottom: "20px solid #434460",
+                            color: "#E7ECEF",
+                        }}
+                    >
                         Apartments
                     </Typography>
                     <Apartment />
@@ -92,17 +92,17 @@ function Property() {
                     }}>
 
                     <Typography
-                        variant='h4'
-                        align='center'
+                        variant="h4"
+                        align="center"
+                        className="heading"
                         maxWidth="md"
                         sx={{
-                            backgroundColor: "#E2EDF3",
-                            color: '#002B3D',
-                            borderRadius: "30px",
-                            margin: '0px 20px 20px 20px',
-                            borderBottom: '10px solid #290000',
-                            padding: '6px 30px',
-                            width: "100%"
+                            margin: "0px auto 40px auto",
+                            background: "#4774AE",
+                            borderRadius: "26px",
+                            padding: "8px 60px",
+                            borderBottom: "20px solid #434460",
+                            color: "#E7ECEF",
                         }}
                     >
                         Lands
@@ -124,19 +124,19 @@ function Property() {
                     }}>
 
                     <Typography
-                        variant='h4'
-                        align='center'
+                        variant="h4"
+                        align="center"
+                        className="heading"
                         maxWidth="md"
                         sx={{
-                            backgroundColor: "#E2EDF3",
-                            color: '#002B3D',
-                            borderRadius: "30px",
-                            margin: '0px 20px 20px 20px',
-                            borderBottom: '10px solid #290000',
-                            padding: '6px 30px',
-                            width: "100%"
+                            margin: "0px auto 40px auto",
+                            background: "#4774AE",
+                            borderRadius: "26px",
+                            padding: "8px 60px",
+                            borderBottom: "20px solid #434460",
+                            color: "#E7ECEF",
                         }}
-                        >
+                    >
                         Buildings
                     </Typography>
                     <Building />

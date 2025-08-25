@@ -14,7 +14,8 @@ import Houses from "../../../data/house";
 function House() {
   return (
     <Container maxWidth="xl" sx={{ margin: "20px 0px 0px 0px" }}>
-      <Grid  spacing={7} container>
+      <Grid spacing={7} container>
+
         {{ Houses } &&
           Houses.map((item) => {
             return (
